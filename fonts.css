@@ -1,0 +1,60 @@
+@font-face {
+  font-family: USN-Stencil;
+  src: url(fonts/USN_stencil.ttf);
+}
+
+@font-face {
+  font-family: Bombard;
+  src: url(fonts/BOMBARD_.ttf);
+}
+
+@font-face {
+  font-family: CaviarDreams;
+  src: url(fonts/CaviarDreams.ttf);
+}
+@font-face {
+  font-family: CaviarDreams;
+  src: url(fonts/CaviarDreams_Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: CaviarDreams;
+  src: url(fonts/CaviarDreams_Italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: CaviarDreams;
+  src: url(fonts/CaviarDreams_BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: GeoSans;
+  src: url(fonts/GeosansLight.ttf);
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url(fonts/Comfortaa-Light.ttf);
+}
+@font-face {
+  font-family: Comfortaa;
+  src: url(fonts/Comfortaa-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: ModernSans;
+  src: url(fonts/ModernSans-Light.otf);
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url(fonts/Quicksand_Book.otf);
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(fonts/Quicksand_Bold.otf);
+  font-weight: bold;
+}

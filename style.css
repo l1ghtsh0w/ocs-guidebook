@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/*-- TAGS --*/
+a {
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #ccc;
+  overflow: scroll;
+  padding: 1% 15% 1% 15%;
+}
+
+dl {
+  list-style-position: outside;
+  text-indent: 0px;
+}
+dt {
+  font-weight: bold;
+  padding-left: 25px;
+}
+dd {
+  padding-left: 10px;
+}
+
+hr {
+  width: 50%;
+}
+
+p {
+  text-indent: 25px;
+}
+p.policy {
+  padding-left: 20px;
+  padding-top: -10px;
+}
+p.term {
+  line-height: 5px;
+}
+
+p.staff, p.article {
+  font-weight: bold;
+}
+span.name, span.articleText {
+  font-weight: normal;
+  padding-left: 45px;
+}
+span.u {
+  text-decoration: underline;
+}
+span.navLink {
+  color: black;
+  text-decoration: none;
+}
+span.navLink:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-position: outside;
+  text-indent: 0px;
+}
+ul.frst {
+  list-style-type: disc;
+}
+ul.scnd {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+
+
+/*-- CLASSES --*/
+.center {
+  text-align: center;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.left {
+  background-color: #f1f1f1;
+  height: auto;
+  margin-right: 2%;
+  text-align: center;
+  width: 26%;
+}
+.column.right {
+  background-color: #f1f1f1;
+  font-family: ModernSans;
+  width: 72%;
+}
+
+.header {
+  background-color: #efefef;
+  font-family: USN-Stencil;
+  font-size: 38pt;
+  margin-bottom: 2%;
+  padding: 10px;
+  text-align: center;
+}
+.subheader {
+  font-family: Bombard;
+  font-size: 28pt;
+}
+
+.options {
+  cursor: pointer;
+  font-family: Quicksand;
+  font-size: 12pt;
+  font-weight: bold;
+  line-height: 25px;
+  padding-top: 0px;
+}
+
+.row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.title {
+  font-family: Comfortaa;
+  font-weight: bold;
+}
+.title.normal {
+  font-size: 19pt;
+}
+.title.big {
+  font-size: 28pt;
+}
+
+
+
+/*-- OTHER --*/
+.contentTitle {
+  font-family: Comfortaa;
+  font-size: 28pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+#content {
+  font-family: Quicksand;
+  font-size: 14pt;
+  font-weight: normal;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: justify;
+}
+
+@media (max-width: 1200px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
